@@ -47,18 +47,32 @@ return：生成的长图列表,`PIL` 模块的 `Image` 类型
 
 ## 添加文字水印
 - 添加单个水印
+
 add_single_watermark(image, text, font, alpha=100, position='middle')
+
 image: 图片
+
 text: 文字
+
 font: 字体
+
 alpha: 透明度，0-255
+
 position: 水印位置，为middle、topleft或者bottomright中的一个
+
 return: 带水印的图片(PIL.Image)
 - 添加整体水印
+
 add_watermark(image, text, font, alpha=100, space=100)
+
 image: 图片
+
 text: 文字
+
 font: 字体
+
 alpha: 透明度，0-255
+
 space: 间隔
+
 return: 带水印的图片(PIL.Image)
