@@ -5,9 +5,9 @@
 - `simhei.ttf` 为中文字库文件
 - `a.txt` 为测试的文字文件
 
-![0.png]('0.png')
-![1.png]('1.png')
-![2.png]('2.png')
+![0.png](./0.png)
+![1.png](./1.png)
+![2.png](./2.png)
 ## 文字转换为长图
 
 text2piiic(string, length, fontsize=20, x=20, y=40, spacing=20)
